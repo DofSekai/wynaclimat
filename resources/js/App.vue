@@ -2,7 +2,7 @@
     <Accueil />
 </template>
 
-<script>
+<script setup>
 import { onMounted } from "vue";
 import Accueil from "./components/Accueil.vue";
 
