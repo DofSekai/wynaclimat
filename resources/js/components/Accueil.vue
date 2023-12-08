@@ -24,7 +24,10 @@
                     >
                 </li>
                 <li style="margin-left: 20px; font-size: 20px">
-                    <a href="https://mrpeabody.fr">LE CODE</a>
+                    <a href="https://github.com/DofSekai/wynaclimat.git">LE CODE</a>
+                </li>
+                <li style="margin-left: 20px; font-size: 20px;">
+                    <a href="https://www.figma.com/file/fRzJwHHSZ8GFoGs9cQDAXl/wynaclimat?type=design&node-id=0%3A1&mode=design&t=21MGBIYjrh5JucKu-1">LES MAQUETTES</a>
                 </li>
                 <li style="margin-left: 20px; font-size: 20px">
                     <router-link to="/a_propos" class="text-white"
