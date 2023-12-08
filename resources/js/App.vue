@@ -1,9 +1,10 @@
 <template>
-    Hello
+    <Accueil />
 </template>
 
-<script setup>
+<script>
 import { onMounted } from "vue";
+import Accueil from "./components/Accueil.vue";
 
 onMounted(() => {
     console.log("Running App");
