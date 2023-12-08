@@ -24,6 +24,9 @@
                     >
                 </li>
                 <li style="margin-left: 20px; font-size: 20px">
+                    <a href="https://mrpeabody.fr">LE CODE</a>
+                </li>
+                <li style="margin-left: 20px; font-size: 20px">
                     <router-link to="/a_propos" class="text-white"
                         >À PROPOS</router-link
                     >
