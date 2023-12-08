@@ -1,22 +1,6 @@
 <template>
     <div class="bg" :style="{ backgroundImage: 'url(' + backgroundImageUrl + ')' }">
       <div class="container">
-        <div class="contact-container">
-          <div class="header">
-            <h1>CONTACTEZ-NOUS</h1>
-          </div>
-          <div class="form">
-            <div class="form-group">
-              <label for="email">Adresse Email:</label>
-              <input type="email" id="email" name="email" class="form-control" placeholder="Votre adresse email" />
-            </div>
-            <div class="form-group">
-              <label for="message">Contenu du Message:</label>
-              <textarea id="message" name="message" class="form-control" rows="5" placeholder="Écrivez votre message ici"></textarea>
-            </div>
-            <button class="btn btn-primary">Envoyer</button>
-          </div>
-        </div>
       </div>
     </div>
   </template>
@@ -25,7 +9,7 @@
   export default {
     data() {
       return {
-        backgroundImageUrl: "./images/contact.png",
+        backgroundImageUrl: "./images/propos.png",
       };
     },
   };
