@@ -1,10 +1,28 @@
 <template>
-    <div class="bg-image" style="background-image: url('images/contact.png'); height: 100vh"></div>
+    <div
+        class="bg"
+        :style="{ backgroundImage: 'url(' + backgroundImageUrl + ')' }"
+    >
+        <div class="container"></div>
+    </div>
 </template>
 
 <script>
-
+export default {
+    data() {
+        return {
+            backgroundImageUrl: "./images/contact.png",
+        };
+    },
+};
 </script>
 
-<style>
+<style scoped>
+.bg {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
 </style>
+
